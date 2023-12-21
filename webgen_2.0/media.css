@@ -1,0 +1,70 @@
+@media(max-width:1200px){
+    html{
+        font-size: 95%;
+    }
+}
+@media(max-width:991px){
+header,section{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.home{
+    flex-direction: column-reverse;
+}
+.about{
+    flex-direction: column;
+}
+.about .about-img .aboutHero{
+    width: 100%;
+}
+.proposal img{
+width: 52vw;
+}
+.img-hero{
+    margin-top: 3rem;
+}
+
+}
+@media(max-width:786px){
+    .proposal{
+        display: none;
+    }
+    .hero-info h3{
+
+        color: white;
+        font-size: 1.5rem;
+    }
+    .menu-icon .bar,.menu-icon::after,.menu-icon::before{
+        display: block;
+    }
+    ul.navlist{
+        position: absolute;
+        top: -1000px;
+        display: block;
+        transition: all .3s ease;
+        width: 100%;
+        text-align: center;
+        left: 0;
+        background:black;
+        border-top: 2px solid rgba(228, 223, 223, 0.7);
+    }
+    ul.navlist a{
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+    .navlist.active{
+top: 100%;
+    }
+    .right-header a{
+        display: none;
+    }
+}
+
+@media(max-width:530px){
+    .rotate-text{
+        display: none;
+    }
+    .img-hero img{
+        width: 100%;
+    }
+}

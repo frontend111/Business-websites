@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    
+    font-family: sans-serif;
+    
+    }
+                  /* --------------slider ----------*/
+    .carousel{
+      width: 100%;
+      height: 800px;
+      background-size: cover;
+      background-position: center;
+      background-image: url('/animinateslide/js/s4.png');
+    }
+    .fade{
+      -webkit-animation: 1.5s;
+      animation: 2.5s fade;
+    }
+    
+    @-webkit-keyframes fade{
+      from{
+        opacity: 0.4;
+      }
+      to{
+        opacity: 1;
+      }
+    }
+    @keyframes fade{
+      from{
+        opacity: 0.4;
+      }
+      to{
+        opacity: 1;
+      }
+    }
+    /* ----------------------slider  end--------------- */
